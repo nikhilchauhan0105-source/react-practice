@@ -17,7 +17,7 @@ const Hero = () => {
           />
           <div class="w-[58px] h-[58px] rounded-full grid place-items-center absolute top-[20px] left-[23px] bg-[#BFF747]">
             <svg
-              class="animate-spin"
+             
               xmlns="http://www.w3.org/2000/svg"
               width="20"
               height="20"
