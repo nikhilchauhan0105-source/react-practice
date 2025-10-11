@@ -7,14 +7,14 @@ const Navbar = () => {
     <>
       {isSidebarShow ? <Slidernav setSidebarShow={setSidebarShow} /> : null}
 
-      <div class="flex  py-3 md:py-[23px] px-3 justify-between max-w-[1140px] m-auto items-center">
-        <div class="flex items-center gap-2">
+      <div class="flex   py-3 md:py-[23px] px-3 justify-between max-w-[1140px] m-auto items-center">
+        <div class="flex   justify items-center gap-[50px]">
           <button onClick={() => setSidebarShow(true)}>
             <svg
               class="lg:hidden"
               xmlns="http://www.w3.org/2000/svg"
-              width="18"
-              height="18"
+              width="25"
+              height="25"
               viewBox="0 0 16 16"
             >
               <path
@@ -26,7 +26,7 @@ const Navbar = () => {
             </svg>
           </button>
           <img
-            class="max-w-[100px] md:max-w-[170px]"
+            class="max-w-[140px] md:max-w-[170px]"
             src="./src/assets/images/digitaal-logo.png"
             alt="logo"
           />
@@ -48,11 +48,11 @@ const Navbar = () => {
             <a href="#Pages">Pages</a>
           </li>
         </ul>
-        <div class="flex">
-          <button class="bg-[#515151] px-4 text-[14px] sm:text-[16px] md:py-[16px] md:px-[32px] text-white rounded-4xl">
+        <div class="flex md:flex  hidden">
+          <button class="bg-[#515151] px-4 text-[14px] sm:text-[16px] font-bold lg:py-[16px] md:px-[32px] text-white rounded-4xl">
             Get started
           </button>
-          <div class="bg-[#BFF747] md:w-[55px] grid place-items-center rounded-full">
+          <div class="bg-[#BFF747] lg:w-[55px]   linear   grid place-items-center rounded-full">
             <svg
               width="34"
               height="34"

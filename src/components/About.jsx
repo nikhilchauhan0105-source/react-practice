@@ -2,7 +2,7 @@
 const About = () => {
   return (
     <div class="bg-black">
-      <div class="flex flex-col lg:flex-row lg:pt-[163px] pt-[30px] pb-[30px] lg:pb-[70px]  max-w-[1140px] m-auto">
+      <div class="flex flex-col lg:flex-row lg:pt-[163px] pt-[30px] pb-[30px] lg:pb-[70px] px-3  max-w-[1140px] m-auto">
         <div class="px-2">
           
           <div class="max-w-[572px] m-auto text-white">
@@ -25,10 +25,10 @@ const About = () => {
               experience that elevate your brand
             </p>
             <div class="flex mt-[15px] md:mt-[32px]">
-              <button class="bg-[#515151] px-4 text-[14px] sm:text-[16px] md:py-[16px] md:px-[32px] text-white rounded-4xl">
+              <button class="bg-[#515151] px-4 text-[14px] sm:text-[16px] lg:py-[16px] md:px-[32px] text-white rounded-4xl">
                 Contact us
               </button>
-              <div class="bg-[#BFF747] md:w-[55px] grid place-items-center rounded-full">
+              <div class="bg-[#BFF747] lg:w-[55px] grid place-items-center rounded-full">
                 <svg
                   width="34"
                   height="34"
@@ -44,7 +44,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div class=" ml-[-371px] md:mt-[141px]">
+          <div class=" ml-[-371px] lg:mt-[141px]">
             <img src="./src/assets/images/ball-img.png" alt="net sphere" />
           </div>
         </div>

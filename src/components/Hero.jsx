@@ -1,8 +1,8 @@
 
 const Hero = () => {
   return (
-    <section class="pb-[134px]">
-      <div class="max-w-[1093px] m-auto pt-[30px] lg:pt-[141px] px-4 mb-[28px]">
+    <section class="pb-[20px] px-3 lg:pb-[134px]">
+      <div class="max-w-[1093px] m-auto pt-[30px] lg:pt-[141px] px-4 md:mb-[28px]">
         <h1 class="text-[30px] sm:text-[45px] lg:text-[96px] font-bold text-white  ">
           Innovative solutions for{" "}
           <span class="text-[#BFF747]">Digital World</span>{" "}
