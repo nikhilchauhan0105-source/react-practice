@@ -20,7 +20,7 @@ const Features = () => {
               </svg>
               <p class="text-white lg:text-[24px] lg:font-bold">FEATURES</p>
             </div>
-            <p class="text-[25px] text-white max-w-[609px] lg:text-[50px]">
+            <p class="text-[25px] text-white max-w-[609px]  leading-[119%] lg:text-[50px]">
               Our proven <span class="text-[#BFF747]">process</span> for
               achieving success
             </p>
@@ -34,13 +34,14 @@ const Features = () => {
         </div>
         <div className="flex flex-col lg:flex-row gap-[36px] m-auto items-center max-w-[1140px] px-3 lg:mt-[60px] mt-3">
           <div class="max-w-[555px] w-full   relative h-[300px] lg:h-[510px]    bg-cover bg-center bg-[url('./assets/images/features.jpg')] rounded-3xl overflow-hidden    ">
-           
+            <div className="w-full h-full  bg-gradient-to-t from-black to-transparent"></div>
             <div class="max-w-[437px] left-[15px] lg:left-[31px] absolute bottom-[15px] lg:bottom-[24px]">
               <div class="flex">
                 <div class=" bg-white shrink rotate-[-3deg] rounded-3xl z-10 px-3 lg:px-[30px] text-[12px] lg:text-[20px] py-2">
                   <p>ROI Focused</p>
                 </div>
-                :<div class=" bg-[#BFF747] rotate-[9deg] lg:px-[30px] px-3 text-[12px] lg:text-[20px] py-2 rounded-3xl ">
+                :
+                <div class=" bg-[#BFF747] rotate-[9deg] lg:px-[30px] px-3 text-[12px] lg:text-[20px] py-2 rounded-3xl ">
                   <p>Experts Guide</p>
                 </div>
               </div>

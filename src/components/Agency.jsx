@@ -19,7 +19,7 @@ const Agency = () => {
               </svg>
               <p class="text-white lg:text-[24px] lg:font-bold">JOIN AGENCY</p>
             </div>
-            <p class="text-[25px] text-white max-w-[609px] lg:text-[50px]">
+            <p class="text-[25px] text-white max-w-[609px]  leading-[119%] lg:text-[50px]">
               Join our <span class="text-[#BFF747]">agency</span>of creative
               innovators
             </p>

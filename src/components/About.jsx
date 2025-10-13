@@ -20,7 +20,7 @@ const About = () => {
             </svg>
             <p class="text-white lg:text-[24px] lg:font-bold">ABOUT AGENCY</p>
           </div>
-            <p class="text-[25px] lg:text-[50px]">
+            <p class="text-[25px]  leading-[119%] lg:text-[50px]">
               Crafting <span class="text-[#BFF747]">unique digital</span>{" "}
               experience that elevate your brand
             </p>
@@ -45,11 +45,11 @@ const About = () => {
             </div>
           </div>
           <div class=" ml-[-371px] lg:mt-[141px]">
-            <img src="./src/assets/images/ball-img.png" alt="net sphere" />
+            <img class="sphare " src="./src/assets/images/ball-img.png" alt="net sphere" />
           </div>
         </div>
         <div class="w-[0.5px] bg-white/40 mr-[25px] ml-[57px]"></div>
-        <div class="max-w-[485px] m-auto flex flex-col lg:mt-0 mt-[-390px] px-2 gap-[30px] lg:gap-[78px]">
+        <div class="max-w-[485px] m-auto flex flex-col z-4 lg:mt-0 mt-[-390px] px-2 gap-[30px] lg:gap-[78px]">
           <article class="max-w-[485px] text-white">
             <svg
               width="48"

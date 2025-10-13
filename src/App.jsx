@@ -8,6 +8,7 @@ import Services from "./components/Services";
 import Whychosse from "./components/whychosse";
 import Agency from "./components/Agency";
 import Features from "./components/Features";
+import Howitwork from "./components/Howitwork";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
     <Whychosse />
     < Agency/>
     <Features />
+    <Howitwork />
     </>
   );
 }

@@ -17,7 +17,7 @@ const Services = () => {
             </svg>
             <p class="text-white lg:text-[24px] lg:font-bold">Our Services</p>
           </div>
-          <p class="text-[25px] text-white lg:text-[50px]">
+          <p class="text-[25px] text-white  leading-[119%] lg:text-[50px]">
             Our <span class="text-[#BFF747]">digital services</span> to grow
             your brend
           </p>
@@ -166,7 +166,11 @@ const Services = () => {
         <span class="text-[#BFF747]">Get Free Quate </span>
       </p>
       <div class="max-w-[1140px] relative gradient-border mt-[30px] gap-4 xl:mt-[136px] lg:p-[65px]  flex-col lg:flex-row flex justify-between text-white m-auto">
-        <img class="absolute top-0 left-0" src="/src/assets/images/vector-1.png" alt="border" />
+        <img
+          class="absolute top-0 left-0"
+          src="/src/assets/images/vector-1.png"
+          alt="border"
+        />
         <div class="max-w-[501px] px-2">
           <div>
             <p class="text-[30px] lg:text-[50px]">

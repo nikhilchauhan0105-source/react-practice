@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <section class="pb-[20px] px-3 lg:pb-[134px]">
       <div class="max-w-[1093px] m-auto pt-[30px] lg:pt-[141px] px-4 md:mb-[28px]">
-        <h1 class="text-[30px] sm:text-[45px] lg:text-[96px] font-bold text-white  ">
+        <h1 class="text-[30px] sm:text-[45px]  leading-[119%] lg:text-[96px] font-bold text-white  ">
           Innovative solutions for{" "}
           <span class="text-[#BFF747]">Digital World</span>{" "}
         </h1>
@@ -17,7 +17,6 @@ const Hero = () => {
           />
           <div class="w-[58px] h-[58px] rounded-full grid place-items-center absolute top-[20px] left-[23px] bg-[#BFF747]">
             <svg
-             
               xmlns="http://www.w3.org/2000/svg"
               width="20"
               height="20"
@@ -59,8 +58,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-      
     </section>
   );
 }
