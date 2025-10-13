@@ -1,4 +1,3 @@
-
 const Agency = () => {
   return (
     <>
@@ -20,7 +19,7 @@ const Agency = () => {
               <p class="text-white lg:text-[24px] lg:font-bold">JOIN AGENCY</p>
             </div>
             <p class="text-[25px] text-white max-w-[609px]  leading-[119%] lg:text-[50px]">
-              Join our <span class="text-[#BFF747]">agency</span>of creative
+              Join our <span class="text-lime">agency</span>of creative
               innovators
             </p>
           </div>
@@ -52,7 +51,7 @@ const Agency = () => {
                 />
               </svg>
             </div>
-            <div className="bg-[#BFF747]   p-2  lg:w-[80px] lg:h-[80px]  grid place-items-center rounded-full absolute  left-[10px] lg:left-[-18px] lg:top-[-30px]">
+            <div className="bg-lime   p-2  lg:w-[80px] lg:h-[80px]  grid place-items-center rounded-full absolute  left-[10px] lg:left-[-18px] lg:top-[-30px]">
               <svg
                 className="h-[25px] w-[25px] lg:h-[37px] lg:w-[40px]"
                 width="40"
@@ -89,7 +88,7 @@ const Agency = () => {
                 />
               </svg>
             </div>
-            <div className="bg-[#BFF747]   p-2  lg:w-[80px] lg:h-[80px]  grid place-items-center rounded-full absolute  left-[10px] lg:left-[-18px] lg:top-[-30px]">
+            <div className="bg-lime   p-2  lg:w-[80px] lg:h-[80px]  grid place-items-center rounded-full absolute  left-[10px] lg:left-[-18px] lg:top-[-30px]">
               <svg
                 className="h-[25px] w-[25px] lg:h-[37px] lg:w-[40px]"
                 width="38"
@@ -126,7 +125,7 @@ const Agency = () => {
                 />
               </svg>
             </div>
-            <div className="bg-[#BFF747]   p-2  lg:w-[80px] lg:h-[80px]  grid place-items-center rounded-full absolute  left-[10px] lg:left-[-18px] lg:top-[-30px]">
+            <div className="bg-lime   p-2  lg:w-[80px] lg:h-[80px]  grid place-items-center rounded-full absolute  left-[10px] lg:left-[-18px] lg:top-[-30px]">
               <svg
                 className="h-[25px] w-[25px] lg:h-[37px] lg:w-[40px]"
                 width="40"
@@ -146,6 +145,6 @@ const Agency = () => {
       </div>
     </>
   );
-}
+};
 
-export default Agency
+export default Agency;

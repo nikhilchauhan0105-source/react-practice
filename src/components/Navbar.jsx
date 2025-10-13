@@ -52,7 +52,7 @@ const Navbar = () => {
           <button class="bg-[#515151] px-4 text-[14px] sm:text-[16px] font-bold lg:py-[16px] md:px-[32px] text-white rounded-4xl">
             Get started
           </button>
-          <div class="bg-[#BFF747] lg:w-[55px]   linear   grid place-items-center rounded-full">
+          <div class="bg-lime lg:w-[55px]   linear   grid place-items-center rounded-full">
             <svg
               width="34"
               height="34"

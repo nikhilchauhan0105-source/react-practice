@@ -1,8 +1,6 @@
-
-
-const Runninghead =() => {
+const Runninghead = () => {
   return (
-    <div class="bg-[#BFF747] lg:gap-[40px] overflow-hidden flex ">
+    <div class="bg-lime lg:gap-[40px] overflow-hidden flex ">
       <div class="flex max-w-fit ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -69,6 +67,6 @@ const Runninghead =() => {
       </div>
     </div>
   );
-}
+};
 
-export default Runninghead
+export default Runninghead;

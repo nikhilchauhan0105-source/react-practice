@@ -1,11 +1,9 @@
-
 const Hero = () => {
   return (
     <section class="pb-[20px] px-3 lg:pb-[134px]">
       <div class="max-w-[1093px] m-auto pt-[30px] lg:pt-[141px] px-4 md:mb-[28px]">
         <h1 class="text-[30px] sm:text-[45px]  leading-[119%] lg:text-[96px] font-bold text-white  ">
-          Innovative solutions for{" "}
-          <span class="text-[#BFF747]">Digital World</span>{" "}
+          Innovative solutions for <span class="text-lime">Digital World</span>{" "}
         </h1>
       </div>
       <div class="flex px-3 flex-col md:flex-row gap-[20px] md:gap-[106px] items-center max-w-[893px] m-auto">
@@ -15,7 +13,7 @@ const Hero = () => {
             src="./src/assets/images/circle-text.png"
             alt="circle text"
           />
-          <div class="w-[58px] h-[58px] rounded-full grid place-items-center absolute top-[20px] left-[23px] bg-[#BFF747]">
+          <div class="w-[58px] h-[58px] rounded-full grid place-items-center absolute top-[20px] left-[23px] bg-lime">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -41,7 +39,7 @@ const Hero = () => {
             <button class="bg-[#515151] px-4 text-[14px] sm:text-[16px] md:py-[16px] md:px-[32px] text-white rounded-4xl">
               Get started
             </button>
-            <div class="bg-[#BFF747] md:w-[55px] grid place-items-center rounded-full">
+            <div class="bg-lime md:w-[55px] grid place-items-center rounded-full">
               <svg
                 width="34"
                 height="34"
@@ -60,6 +58,6 @@ const Hero = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Hero
+export default Hero;

@@ -18,8 +18,8 @@ const Services = () => {
             <p class="text-white lg:text-[24px] lg:font-bold">Our Services</p>
           </div>
           <p class="text-[25px] text-white  leading-[119%] lg:text-[50px]">
-            Our <span class="text-[#BFF747]">digital services</span> to grow
-            your brend
+            Our <span class="text-lime">digital services</span> to grow your
+            brend
           </p>
         </div>
         <div class="max-w-[484px]">
@@ -31,7 +31,7 @@ const Services = () => {
             <button class="bg-[#515151] px-4 text-[14px] sm:text-[16px] md:py-[16px] md:px-[32px] text-white rounded-4xl">
               Contact us
             </button>
-            <div class="bg-[#BFF747] md:w-[55px] grid place-items-center rounded-full">
+            <div class="bg-lime md:w-[55px] grid place-items-center rounded-full">
               <svg
                 width="34"
                 height="34"
@@ -163,7 +163,7 @@ const Services = () => {
       </div>
       <p class="max-w-fit px-4 text-[12px] m-auto text-white mt-[50px]">
         Let’s make something great work together.{" "}
-        <span class="text-[#BFF747]">Get Free Quate </span>
+        <span class="text-lime">Get Free Quate </span>
       </p>
       <div class="max-w-[1140px] relative gradient-border mt-[30px] gap-4 xl:mt-[136px] lg:p-[65px]  flex-col lg:flex-row flex justify-between text-white m-auto">
         <img
@@ -175,20 +175,16 @@ const Services = () => {
           <div>
             <p class="text-[30px] lg:text-[50px]">
               Expertise that drives digital{" "}
-              <span class="text-[#BFF747]">success</span>{" "}
+              <span class="text-lime">success</span>{" "}
             </p>
           </div>
           <div class="flex flex-col pl-[50px] lg:pl-0 md:flex-row">
             <div class="max-w-[232px]">
-              <p class="lg:text-[52px] text-[30px] text-[#BFF747] font-bold">
-                +60%
-              </p>
+              <p class="lg:text-[52px] text-[30px] text-lime font-bold">+60%</p>
               <p>By optimizing your website for search engines.</p>
             </div>
             <div class="max-w-[253px]">
-              <p class="lg:text-[52px] text-[30px] text-[#BFF747] font-bold">
-                +60%
-              </p>
+              <p class="lg:text-[52px] text-[30px] text-lime font-bold">+60%</p>
               <p>
                 Rise in revenue as more visitors covert into paying customers.
               </p>

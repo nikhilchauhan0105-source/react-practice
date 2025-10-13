@@ -1,4 +1,4 @@
-import features from "../assets/images/features.jpg"
+import features from "../assets/images/features.jpg";
 
 const Features = () => {
   return (
@@ -21,8 +21,8 @@ const Features = () => {
               <p class="text-white lg:text-[24px] lg:font-bold">FEATURES</p>
             </div>
             <p class="text-[25px] text-white max-w-[609px]  leading-[119%] lg:text-[50px]">
-              Our proven <span class="text-[#BFF747]">process</span> for
-              achieving success
+              Our proven <span class="text-lime">process</span> for achieving
+              success
             </p>
           </div>
           <div class="max-w-[414px]">
@@ -41,12 +41,12 @@ const Features = () => {
                   <p>ROI Focused</p>
                 </div>
                 :
-                <div class=" bg-[#BFF747] rotate-[9deg] lg:px-[30px] px-3 text-[12px] lg:text-[20px] py-2 rounded-3xl ">
+                <div class=" bg-lime rotate-[9deg] lg:px-[30px] px-3 text-[12px] lg:text-[20px] py-2 rounded-3xl ">
                   <p>Experts Guide</p>
                 </div>
               </div>
               <div class="flex">
-                <div class="  px-3 lg:px-[21px] rounded-[1000px] bg-[#BFF747] py-1 text-[12px] lg:text-[20px]">
+                <div class="  px-3 lg:px-[21px] rounded-[1000px] bg-lime py-1 text-[12px] lg:text-[20px]">
                   <p>Results</p>
                 </div>
                 <div class="lg:px-[32px] px-3 rounded-[1000px] bg-white py-1 text-[12px] lg:text-[20px]">
@@ -71,7 +71,7 @@ const Features = () => {
                 <button class="bg-[#515151] px-4 text-[14px] sm:text-[16px] md:py-[16px] md:px-[32px] text-white rounded-4xl">
                   Learn more
                 </button>
-                <div class="bg-[#BFF747] md:w-[55px] grid place-items-center rounded-full">
+                <div class="bg-lime md:w-[55px] grid place-items-center rounded-full">
                   <svg
                     width="34"
                     height="34"
@@ -172,6 +172,6 @@ const Features = () => {
       </section>
     </>
   );
-}
+};
 
-export default Features
+export default Features;

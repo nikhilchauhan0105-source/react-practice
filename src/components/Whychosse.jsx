@@ -43,8 +43,8 @@ const whychosse = () => {
             <p class="text-white lg:text-[24px] lg:font-bold">Why chosse</p>
           </div>
           <p class="text-[25px] text-white max-w-[609px] lg:text-[50px]">
-            Expertise for <span class="text-[#BFF747]">your digital</span>{" "}
-            growth journey
+            Expertise for <span class="text-lime">your digital</span> growth
+            journey
           </p>
         </div>
         <div class="max-w-[441px]">
@@ -56,31 +56,30 @@ const whychosse = () => {
         </div>
       </div>
       <div class="lg:flex-row flex flex-col-reverse px-3 gap-3 mt-4  lg:mt-[31px] max-w-[1140px] items-center justify-between m-auto">
-       
-          <div class="max-w-[581px] flex-col flex gap-[20px]" >
-            <article Class="border-1 border-white/20 rounded-xl md:rounded-3xl p-2 md:p-[28px] bg-[#191B17] text-white">
-              <p class="font-bold">Data-Driven Approach</p>
-              <p>
-                We leverage data and insights to make informed decisions that
-                lead to more effective and efficient solutions.
-              </p>
-            </article>
-            <article Class="border-1 border-white/20 rounded-xl md:rounded-3xl p-2 md:p-[28px] bg-[#191B17] text-white">
-              <p class="font-bold">Competitive Pricing</p>
-              <p>
-                We offer our top-quality services at competitive prices,
-                providing you with great value for your investment.
-              </p>
-            </article>
-            <article Class="border-1 border-white/20 rounded-xl md:rounded-3xl p-2 md:p-[28px] bg-[#191B17] text-white">
-              <p class="font-bold">Ethical Business Practices</p>
-              <p>
-                We maintain the highest level of professionalism and ethical
-                standards professionalism in all our business dealings.
-              </p>
-            </article>
-          </div>
-       
+        <div class="max-w-[581px] flex-col flex gap-[20px]">
+          <article Class="border-1 border-white/20 rounded-xl md:rounded-3xl p-2 md:p-[28px] bg-[#191B17] text-white">
+            <p class="font-bold">Data-Driven Approach</p>
+            <p>
+              We leverage data and insights to make informed decisions that lead
+              to more effective and efficient solutions.
+            </p>
+          </article>
+          <article Class="border-1 border-white/20 rounded-xl md:rounded-3xl p-2 md:p-[28px] bg-[#191B17] text-white">
+            <p class="font-bold">Competitive Pricing</p>
+            <p>
+              We offer our top-quality services at competitive prices, providing
+              you with great value for your investment.
+            </p>
+          </article>
+          <article Class="border-1 border-white/20 rounded-xl md:rounded-3xl p-2 md:p-[28px] bg-[#191B17] text-white">
+            <p class="font-bold">Ethical Business Practices</p>
+            <p>
+              We maintain the highest level of professionalism and ethical
+              standards professionalism in all our business dealings.
+            </p>
+          </article>
+        </div>
+
         <div class="lg:max-w-[485px] max-w-[600px]  rounded-xl lg:rounded-3xl overflow-hidden">
           <img
             class=" object-cover w-full   h-[300px] lg:h-[512px]"

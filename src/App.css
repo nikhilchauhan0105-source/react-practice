@@ -8,3 +8,7 @@ animation: sphare 15s infinite linear ;
     50% {transform: rotate(45deg);}
     100%{ transform: rotate(0deg);}
 }
+
+@theme {
+    --color-lime : #BFF747
+}

@@ -9,6 +9,8 @@ import Whychosse from "./components/whychosse";
 import Agency from "./components/Agency";
 import Features from "./components/Features";
 import Howitwork from "./components/Howitwork";
+import Ourclient from "./components/ourclient";
+import Subscribe from "./components/Subscribe";
 function App() {
   return (
     <>
@@ -22,6 +24,8 @@ function App() {
     < Agency/>
     <Features />
     <Howitwork />
+    <Ourclient />
+    <Subscribe />
     </>
   );
 }

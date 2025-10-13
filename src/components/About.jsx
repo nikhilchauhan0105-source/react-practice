@@ -1,34 +1,32 @@
-
 const About = () => {
   return (
     <div class="bg-black">
       <div class="flex flex-col lg:flex-row lg:pt-[163px] pt-[30px] pb-[30px] lg:pb-[70px] px-3  max-w-[1140px] m-auto">
         <div class="px-2">
-          
           <div class="max-w-[572px] m-auto text-white">
             <div class="flex items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
-              viewBox="0 0 128 128"
-            >
-              <path
-                fill="#9fee00ff"
-                d="m89.31 71.03l-20.06-6.71c7.76-2.35 19.51-5.5 21.2-5.98c2.68-.76 4.14-1.8 3.51-4.51c-.5-2.17-3.16-8.27-5.57-11.4c-2.01-2.6-5.34.61-5.34.61l-16.3 12.84c1.28-5.57 4.38-18.66 5-20.64c.81-2.56-.4-4.86-3.24-5.4c-2.19-.42-8-.79-11.87 0c-3.98.81-2.33 5.8-2.33 5.8l4.78 20.23l-15.32-12.41s-4.22-4.2-6.75-1.02c-2.46 3.09-4.78 8.44-5.4 10.57c-.81 2.77.81 4.59 3.33 5.34c2.28.68 17.92 5.06 21.55 5.98L36.43 70.6s-5.58 1.39-4.26 5.23c1.28 3.74 4.55 8.56 6.01 10.24c1.9 2.17 4.49 2.06 6.29.06c1.27-1.41 9.1-9.31 13.61-13.58c-1.39 6.03-3.87 17.15-4.44 18.97c-.81 2.56.4 4.86 3.24 5.4c2.19.42 8 .79 11.87 0c3.98-.81 2.37-5.62 2.37-5.62l-4.38-18.74C71.09 76.67 80.15 85 81.49 86.49c1.8 2 4.39 2.11 6.29-.06c1.47-1.67 4.73-6.5 6.01-10.24c1.33-3.86-4.48-5.16-4.48-5.16"
-              />
-            </svg>
-            <p class="text-white lg:text-[24px] lg:font-bold">ABOUT AGENCY</p>
-          </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 128 128"
+              >
+                <path
+                  fill="#9fee00ff"
+                  d="m89.31 71.03l-20.06-6.71c7.76-2.35 19.51-5.5 21.2-5.98c2.68-.76 4.14-1.8 3.51-4.51c-.5-2.17-3.16-8.27-5.57-11.4c-2.01-2.6-5.34.61-5.34.61l-16.3 12.84c1.28-5.57 4.38-18.66 5-20.64c.81-2.56-.4-4.86-3.24-5.4c-2.19-.42-8-.79-11.87 0c-3.98.81-2.33 5.8-2.33 5.8l4.78 20.23l-15.32-12.41s-4.22-4.2-6.75-1.02c-2.46 3.09-4.78 8.44-5.4 10.57c-.81 2.77.81 4.59 3.33 5.34c2.28.68 17.92 5.06 21.55 5.98L36.43 70.6s-5.58 1.39-4.26 5.23c1.28 3.74 4.55 8.56 6.01 10.24c1.9 2.17 4.49 2.06 6.29.06c1.27-1.41 9.1-9.31 13.61-13.58c-1.39 6.03-3.87 17.15-4.44 18.97c-.81 2.56.4 4.86 3.24 5.4c2.19.42 8 .79 11.87 0c3.98-.81 2.37-5.62 2.37-5.62l-4.38-18.74C71.09 76.67 80.15 85 81.49 86.49c1.8 2 4.39 2.11 6.29-.06c1.47-1.67 4.73-6.5 6.01-10.24c1.33-3.86-4.48-5.16-4.48-5.16"
+                />
+              </svg>
+              <p class="text-white lg:text-[24px] lg:font-bold">ABOUT AGENCY</p>
+            </div>
             <p class="text-[25px]  leading-[119%] lg:text-[50px]">
-              Crafting <span class="text-[#BFF747]">unique digital</span>{" "}
-              experience that elevate your brand
+              Crafting <span class="text-lime">unique digital</span> experience
+              that elevate your brand
             </p>
             <div class="flex mt-[15px] md:mt-[32px]">
               <button class="bg-[#515151] px-4 text-[14px] sm:text-[16px] lg:py-[16px] md:px-[32px] text-white rounded-4xl">
                 Contact us
               </button>
-              <div class="bg-[#BFF747] lg:w-[55px] grid place-items-center rounded-full">
+              <div class="bg-lime lg:w-[55px] grid place-items-center rounded-full">
                 <svg
                   width="34"
                   height="34"
@@ -45,7 +43,11 @@ const About = () => {
             </div>
           </div>
           <div class=" ml-[-371px] lg:mt-[141px]">
-            <img class="sphare " src="./src/assets/images/ball-img.png" alt="net sphere" />
+            <img
+              class="sphare "
+              src="./src/assets/images/ball-img.png"
+              alt="net sphere"
+            />
           </div>
         </div>
         <div class="w-[0.5px] bg-white/40 mr-[25px] ml-[57px]"></div>
@@ -150,6 +152,6 @@ const About = () => {
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;
