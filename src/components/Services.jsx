@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div class="bg-black">
+    <div class="bg-black" id="service">
       <div class="lg:max-w-[1140px] max-w-fit pt-[30px] px-2 lg:pt-[161px] flex-col lg:flex-row flex m-auto">
         <div>
           <div class="flex  items-center">

@@ -13,9 +13,9 @@ const ourclient = () => {
   const swiperRef = useRef(null);
   return (
     <>
-      <section class="text-white bg-black py-[70px]">
+      <section class="text-white bg-black py-[15px] xl:py-[70px]">
         <div class="max-w-[491px] m-auto text-center ">
-          <p class="text-[40px] mb-[50px]">
+          <p class="text-[25px] lg:text-[40px] lg:mb-[50px]">
             What Our <span class="text-lime">Clients</span> Say
           </p>
         </div>
@@ -31,12 +31,12 @@ const ourclient = () => {
           <SwiperSlide className="mt-[50px]">
             <div class="max-w-[869px] relative m-auto bg-[#191B17] items-center rounded-2xl lg:flex-row flex-col flex lg:p-[32px] justify-between">
               <div class="max-w-[277px]  min-w-[200px] ">
-                <img class="max-h-[277px] rounded-2xl" src={client1} alt="" />
+                <img class="max-h-[250px] rounded-2xl" src={client1} alt="" />
               </div>
               <div class="max-w-[504px]">
                 <p class="text-[24px]">Neha R.</p>
                 <p class="text-[18px]">Exceptional Service</p>
-                <p class="mt-[12px]">
+                <p class="text-[14px] md:text-base mt-[12px]">
                   Our client relationships are built on trust, transparency, and
                   performance. Read how we’ve helped brands like yours scale
                   digitally with confidence.Our client relationships are built
@@ -70,7 +70,7 @@ const ourclient = () => {
               <div class="max-w-[504px]">
                 <p class="text-[24px]">Aarav S.</p>
                 <p class="text-[18px]">Exceptional Service</p>
-                <p class="mt-[12px]">
+                <p class="text-[14px] md:text-base mt-[12px]">
                   Our client relationships are built on trust, transparency, and
                   performance. Read how we’ve helped brands like yours scale
                   digitally with confidence.Our client relationships are built
@@ -104,7 +104,7 @@ const ourclient = () => {
               <div class="max-w-[504px]">
                 <p class="text-[24px]">Munii</p>
                 <p class="text-[18px]">Exceptional Service</p>
-                <p class="mt-[12px]">
+                <p class="text-[14px] md:text-base mt-[12px] lg:break-normal ">
                   Our client relationships are built on trust, transparency, and
                   performance. Read how we’ve helped brands like yours scale
                   digitally with confidence.Our client relationships are built

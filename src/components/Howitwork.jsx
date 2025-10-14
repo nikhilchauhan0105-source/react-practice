@@ -190,9 +190,9 @@ const Howitwork = () => {
                 onClick={() => setActiveTab(obj.slug)}
                 className={`${
                   activeTab == obj.slug
-                    ? "bg-lime-600 text-black"
+                    ? "bg-lime text-black"
                     : "bg-black text-white"
-                } md:px-[32px]  min-w-[80px] hover:bg-lime-600  transition ease-in-out duration-300 py-[11px] border-1 border-white/20 rounded-[16px]`}
+                } md:px-[32px]  min-w-[90px] hover:bg-lime transition ease-in-out duration-300 py-[11px] border-1 border-white/20 rounded-[16px]`}
               >
                 {obj.label}
               </button>

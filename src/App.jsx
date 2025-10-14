@@ -11,6 +11,10 @@ import Features from "./components/Features";
 import Howitwork from "./components/Howitwork";
 import Ourclient from "./components/ourclient";
 import Subscribe from "./components/Subscribe";
+import Collaborate from "./components/Collaborate";
+import Footer from "./components/Footer";
+import copyright from "./components/Copyright";
+import Copyright from "./components/Copyright";
 function App() {
   return (
     <>
@@ -26,6 +30,9 @@ function App() {
     <Howitwork />
     <Ourclient />
     <Subscribe />
+    <Collaborate />
+    <Footer />
+    < Copyright />
     </>
   );
 }

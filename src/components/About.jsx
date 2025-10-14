@@ -1,6 +1,7 @@
 const About = () => {
   return (
-    <div class="bg-black">
+    <>
+    <section class="bg-black" id="about">
       <div class="flex flex-col lg:flex-row lg:pt-[163px] pt-[30px] pb-[30px] lg:pb-[70px] px-3  max-w-[1140px] m-auto">
         <div class="px-2">
           <div class="max-w-[572px] m-auto text-white">
@@ -150,7 +151,8 @@ const About = () => {
           </article>
         </div>
       </div>
-    </div>
+    </section>
+    </>
   );
 };
 
