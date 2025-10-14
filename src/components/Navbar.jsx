@@ -33,19 +33,19 @@ const Navbar = () => {
         </div>
         <ul class="flex gap-[40px] text-white lg:flex hidden">
           <li>
-            <a href="#Home">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#Services">Services</a>
+            <a href="#service">Services</a>
           </li>
           <li>
-            <a href="#Contactus">Contact us</a>
+            <a href="#contact">Contact us</a>
           </li>
           <li>
-            <a href="#About">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#Pages">Pages</a>
+            <a href="#pages">Pages</a>
           </li>
         </ul>
         <div class="flex md:flex  hidden">
